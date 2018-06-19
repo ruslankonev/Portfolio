@@ -1,0 +1,19 @@
+Сценарное тестирование взаимодействия смарт-контрактов в тестовой сети Rinkeby
+
+1) Деплой контракта токена - https://rinkeby.etherscan.io/tx/0x9a8e0a8224853a3843d74eb2f0501ce44730e9eb39a1945a018fa09eeef7e9a6
+2) Деплой контракта Sale - https://rinkeby.etherscan.io/tx/0x567c8a5c17c1a3e0dd83bf96079efdaa7444a1ff192e250a8c880272919d9b4c
+3) Инициализация токена на контракте Sale - https://rinkeby.etherscan.io/tx/0x6b3528302f20bfa0314185b3d968261bc31e64cc122dc7539aca54bb888d2ece
+4) Авторизация SaleAddress на контракте токена - https://rinkeby.etherscan.io/tx/0xf7a8a442f62612a9b313781195e60981934e0829ea7f253f3b6226c10b5df024
+5) Покупка до старта распродажи - https://rinkeby.etherscan.io/tx/0xe2ecbbc24dc4efdcf6b1296d75bdaf72c7a59055fc6aae618bb859fc963638e6
+6) Изменение даты старта  preSale - https://rinkeby.etherscan.io/tx/0x2aa99eae8dcf026fd610b4d6a26650f7404c6d9722daa3a62a2516381e2e90b3
+7) Авторизация аккаунта - https://rinkeby.etherscan.io/tx/0x6600de4e76738d589893745caba7cad65a58a6fffc1af0a8cdfad2a192892717
+8) Покупка токенов в период авторизованным адресом - https://rinkeby.etherscan.io/tx/0x03581f871864265a27bbbb23c3c6299290271a71e4394dc9090ff4ca8b4eaa16
+9) ручная отправка токена - https://rinkeby.etherscan.io/tx/0x00930bce0cc922273dcef6db7ebad6ff246e526f24471e8e4936cb27a0122fb4
+10) Досрочное завершение сейла - https://rinkeby.etherscan.io/tx/0xe92d61ddda76812e9624f3c76fca8102ed4b4fc4299f769ef066f101a84e4229
+11) Возврат средств инвесторов по недостижении софткап - https://rinkeby.etherscan.io/tx/0x0ab7d186a41ccedffb73721bdd774ade1342e63f2876d5197ee7a1543051b9fa
+12) Отправка эфира владельцу контракта - https://rinkeby.etherscan.io/tx/0xc58faf4b75e1d46ffa213979c7948ec6901d5c04daac898280c8d75c507b89a6
+13) Достижение максимума эмиссии - https://rinkeby.etherscan.io/tx/0xc87cc6df6f07596e0feb9bec403190712a2f7fdb8426b0069477cd519f7a5193
+14) Попытка выпустить большее количество токенов - https://rinkeby.etherscan.io/tx/0x4841a1e64f84492fdfbe946513f0fed52de241ab8cf1736bad75023f9f721dea
+15) Попытка выпустить токены после достижения максимального количества - https://rinkeby.etherscan.io/tx/0x4841a1e64f84492fdfbe946513f0fed52de241ab8cf1736bad75023f9f721dea
+16) Снятие контракта с паузы - https://rinkeby.etherscan.io/tx/0x7ff10e4ff50e43b4e15a4a12197b409b29f5f93bd271267579b96944744bb471
+17) Трансфер токена между алресам ипосле снятия паузы - https://rinkeby.etherscan.io/tx/0x75a046df23ee1c8669c45ad928bef81aa49af660517fc25ac05deb8c16f133f7
