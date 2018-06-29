@@ -1,0 +1,30 @@
+# [ base ]
+
+node_modules/
+bower_components/
+Thumbs.db
+.DS_Store
+prepros.cfg
+
+
+
+# [ main ]
+
+0src/
+*.css
+!fonts.css
+!php/css/*.css
+bundle.min.js
+npm-product.jpg
+*.html
+!${{*}}$.html
+!php/login.html
+
+# [ other ]
+
+*.log
+*.sublime*
+*.map
+.idea
+*.psd
+*.ai

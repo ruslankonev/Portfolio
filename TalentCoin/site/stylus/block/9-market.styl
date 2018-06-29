@@ -1,0 +1,218 @@
+.wrapper--9
+	{}
+	background-image radial-gradient(circle closest-corner at 50% 50%, #051d4a 20%, #000f19 56%)
+
+
+.section--9
+	{}
+	color #fff
+	height auto
+
+.market
+	{}
+	width 100%
+
+
+	&__caption
+		{}
+		caption(2.875rem, 3rem, 600)
+
+
+
+	&__box
+		display flex
+
+
+	&__element
+		position relative
+		padding 20px
+		border 4px solid #0000
+		border-image linear-gradient(to top left,#006bff 0%,#00098e 100%)
+		border-image-slice 1
+
+		&--first
+			{}
+			max-width 510px
+			flex-shrink 0
+
+		&--second
+			{}
+			margin-left 3rem
+			width 100%
+			background url('../img/bg/section--9.jpg') no-repeat -50px -80px
+			background-size cover
+
+
+		&::before
+			content ''
+			position absolute
+			top -26px
+			left -26px
+			width 50px
+			height 50px
+			background-image radial-gradient(circle closest-side at 25px 25px,#07fbf4 2%,#004fff 10%,#0000 70%)
+			background-repeat no-repeat
+
+
+	&__paragraph
+		{}
+		margin-bottom 2.5rem
+		font-size 1.125rem
+		line-height 1.3rem
+		font-weight 300
+
+
+	&__list
+		{}
+
+
+	&__item
+		{}
+		margin-bottom 1.5rem
+		font-size 1.125rem
+		line-height 1.3rem
+		font-weight 300
+
+
+
+@media fullhd
+	.section--9
+		{}
+
+	.market
+		{}
+
+		&__box
+			{}
+
+
+		&__element
+			{}
+
+			&--first
+				{}
+				flex-shrink 1
+
+
+			&--second
+				{}
+				margin-left 1rem
+				flex-shrink 3
+				background-position 50%
+
+
+
+
+
+@media desktop
+	.section--9
+		{}
+
+	.market
+		{}
+
+		&__box
+			{}
+			flex-wrap wrap
+
+
+		&__element
+			{}
+
+			&--first
+				{}
+				box-sizing border-box
+				margin-bottom 2rem
+				max-width 1200px
+				width 100%
+
+
+			&--second
+				{}
+				margin-left 0
+				background-size 95% 126%
+				height 400px
+
+
+
+
+
+@media notebook
+	.section--9
+		{}
+
+	.market
+		{}
+
+		&__box
+			{}
+			flex-wrap wrap
+
+
+		&__element
+			{}
+
+			&--first
+				{}
+
+			&--second
+				{}
+
+
+
+
+
+
+@media medium
+	.section--9
+		{}
+
+	.market
+		{}
+
+		&__box
+			{}
+			flex-wrap wrap
+
+
+		&__element
+			{}
+
+			&--first
+				{}
+
+			&--second
+				{}
+				background-size cover
+
+
+
+
+
+@media small
+	.section--9
+		{}
+
+	.market
+		{}
+
+		&__box
+			{}
+			flex-wrap wrap
+
+
+		&__element
+			{}
+
+			&--first
+				{}
+
+			&--second
+				{}
+				height 200px
+
+		&__list
+			{}
+			padding-left 20px
+
+

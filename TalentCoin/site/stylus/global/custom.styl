@@ -1,0 +1,469 @@
+body
+	font-size 1rem
+	line-height 1rem
+	font-family 'Open Sans', Arial
+	background-color #010a15
+	// background-color pink
+
+
+
+
+.logotype
+	{}
+
+
+	&--opacity
+		opacity .2
+
+
+//
+// Кнопка-якорь возвращения назад
+//
+
+.arrow-return
+	position fixed
+	display flex
+	bottom 15px
+	left 15px
+	width 50px
+	height 50px
+	z-index 100
+	opacity .8
+	border-radius 50%
+	background-color #37b9d1cc
+	transition opacity .3s
+
+	&:hover
+		{}
+		opacity 1
+
+	&__svg
+		margin auto
+		width 70%
+		height 70%
+
+
+
+
+//
+// Свой виджет Telegram
+//
+
+.custom-widget
+	{}
+	position fixed
+	bottom 15px
+	right 15px
+	display block
+	width 60px
+	height 60px
+	border-radius 50%
+	background-color lightblue
+	box-shadow 1px 1px 5px #27A5E7
+	z-index 100
+	animation shadowwave 2s infinite
+
+	&__svg
+		{}
+		width 100%
+		height 100%
+		fill #ffF
+
+	&__1123
+		{}
+
+
+
+
+
+
+
+//
+// Состояние ссылок
+//
+
+a
+	color #fff
+	text-decoration none
+
+	&:hover
+		text-decoration underline
+
+	&:visited
+		color #fff
+
+
+
+//
+// Изначальные стили кнопок
+//
+
+.btn
+	display block
+	padding 20px 30px
+	border 0
+	background-color transparent
+	background-image radial-gradient(circle closest-side at 20px 20px,#07fbf4,#0000),-webkit-gradient(linear,left top,left bottom,color-stop(47%,#0058f7),color-stop(54%,#002cc0))
+	background-image radial-gradient(circle closest-side at 20px 20px,#07fbf4,#0000),linear-gradient(to bottom,#0058f7 47%,#002cc0 54%)
+	background-position -20px -20px, 0
+	background-repeat no-repeat
+	color #fff
+	text-transform uppercase
+	outline 1px solid #a9d0f4
+	cursor pointer
+
+
+
+.loading-block
+	display flex
+	justify-content center
+
+	.loading
+		border-radius 50%
+		width 24px
+		height 24px
+		border 0.25rem solid white
+		border-top-color #3d3c65
+		animation spin 1s infinite linear
+
+	.loading--double
+		border-style double
+		border-width 5rem
+
+
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~ ~~
+// WRAPPER FLEX центровщик ~~
+// ~~~~~~~~~~~~~~~~~~~~~~~ ~~
+
+.wrapper
+	{}
+	display flex
+	flex-direction column
+	align-items center
+
+	&--1
+	&--2
+	&--3
+	&--4
+	&--5
+	&--6
+	&--7
+	&--8
+	&--9
+	&--10
+	&--11
+	&--12
+	&--13
+	&--14
+	&--15
+		{}
+
+
+	&__inner
+		width 100%
+
+
+	&--0
+		{}
+
+
+	&--1
+		{}
+
+
+		.wrapper__inner--1
+			{}
+			background-color rgba(0,0,0, 0.55)
+
+		.wrapper__inner--2
+			{}
+			position absolute
+			height 700px
+			overflow hidden
+			background-color #030001
+			z-index -1
+
+
+	&--2
+		{}
+		height 1036px
+
+
+
+	&--3
+		{}
+
+
+	&--4
+		{}
+
+
+	&--5
+		{}
+
+
+	&--6
+		{}
+
+
+	&--7
+		{}
+		height 1036px
+
+
+	&--8
+		{}
+
+
+	&--9
+		{}
+
+
+	&--10
+		{}
+
+
+
+	&--11
+		{}
+
+
+
+	&--12
+		{}
+
+
+
+	&--13
+		{}
+
+
+
+	&--14
+		{}
+
+
+
+	&--15
+		{}
+
+
+
+// ~~~~~~~ ~~
+// SECTION ~~
+// ~~~~~~~ ~~
+
+
+.section
+	{}
+	box-sizing border-box
+	position relative
+	display flex
+	padding 2rem 30px
+	width 100%
+	max-width 1720px // 1660px
+	height 1500px
+
+
+	&--0
+		{}
+		padding 0px
+		height auto // Временные, после удалить
+
+		// &::after
+		// 	content '0'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+
+
+	&--1
+		{}
+		background-image linear-gradient(to bottom, transparent 60%, rgba(4,15,26, 1) 70%)
+		min-height 960px
+		height auto
+
+		// &::after
+		// 	content '1'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--2
+		{}
+
+		// &::after
+		// 	content '2'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--3
+		{}
+
+		// &::after
+		// 	content '3'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--4
+		{}
+
+		// &::after
+		// 	content '4'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--5
+		{}
+
+		// &::after
+		// 	content '5'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--6
+		{}
+
+		// &::after
+		// 	content '6'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--7
+		{}
+
+		// &::after
+		// 	content '7'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--8
+		{}
+
+		// &::after
+		// 	content '8'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--9
+		{}
+
+		// &::after
+		// 	content '9'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--10
+		{}
+
+		// &::after
+		// 	content '10'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--11
+		{}
+
+		// &::after
+		// 	content '11'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--12
+		{}
+
+		// &::after
+		// 	content '12'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+	&--13
+		{}
+
+		// &::after
+		// 	content '13'
+		// 	position absolute
+		// 	top 5px
+		// 	right 5px
+		// 	font-size 2rem
+
+
+
+
+
+
+
+
+
+
+
+
+// TAG
+// VIDEO
+// style
+
+.video
+	{}
+
+
+	&__promo1
+	&__promo2
+		{}
+		width 100%
+
+
+
+// Youtube
+// IFRAME
+// style
+
+
+.iframe-video
+	{}
+	width 100%
+	height 100%
+	background-color #000
+	// position relative
+	// width 100%  // % только когда можно исп.
+	// height 100% // когда у родителя заданы в px
+	// overflow hidden
+
+	&__promo1
+	&__promo2
+		{}
+		width 100%
+		height 100%
+
+	&__promo1
+		{}
+
+	&__promo2
+		{}
+

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1297.1019">
+  <defs>
+    <radialGradient id="a" cx="5282.3448" cy="1427.7843" r="474.6797" gradientTransform="translate(-13207.3632 -1968.3363) scale(2.6848 1.8444)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.4028" stop-color="#fdfdfd"/>
+      <stop offset="0.6097" stop-color="#f5f5f5"/>
+      <stop offset="0.7722" stop-color="#e8e8e8"/>
+      <stop offset="0.9106" stop-color="#d5d5d5"/>
+      <stop offset="1" stop-color="#c4c4c4"/>
+    </radialGradient>
+    <clipPath id="b">
+      <rect y="125" width="1920" height="1080" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>fon</title>
+  <g>
+    <rect y="125" width="1920" height="1080" fill="url(#a)"/>
+    <g clip-path="url(#b)">
+      <g>
+        <path d="M1682.3144,70h-291.55l-95.4276,95.36,243.26,285.59,239.97-286.067ZM1538.3537,381.0352,1358.4654,163.1874l178.8132,128.1882L1712.6406,163.48Z" fill="#e2e2e2"/>
+        <path d="M682.67,0H391.12L295.6921,95.663l243.26,285.7416L778.9218,95.11ZM538.7093,311.642,358.821,93.7942,537.6342,221.9824,712.9962,94.0863Z" fill="#e2e2e2"/>
+        <g>
+          <path d="M1699.5575,726h-291.55L1312.58,821.1986l243.26,285.51,239.97-285.9464Zm-143.9607,310.7133L1375.7085,818.8655l178.8132,128.1882,175.362-127.8961Z" fill="#e2e2e2"/>
+          <path d="M493.1668,570h-291.55l-95.4277,95.241,243.26,285.5306L589.4186,664.7935ZM349.2061,880.798,169.3178,662.95,348.131,791.1384,523.493,663.2423Z" fill="#e2e2e2"/>
+        </g>
+        <path d="M1107.2636,916h-291.55l-95.4277,95.4612,243.26,285.6407,239.97-286.1432ZM963.303,1227.2384,783.4146,1009.3906l178.8132,128.1882,175.362-127.8961Z" fill="#e2e2e2"/>
+      </g>
+    </g>
+  </g>
+</svg>

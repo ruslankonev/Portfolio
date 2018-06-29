@@ -1,0 +1,482 @@
+.wrapper--12
+	{}
+	background-image radial-gradient(circle closest-corner at 50% 50%,#051d4a 20%,#000f19 56%)
+	background-repeat no-repeat
+	background-color #000
+	background-position 0 100%
+
+.section--12
+	{}
+	height auto!important
+
+.slider
+	{}
+	width 100%
+
+
+	&__caption
+		{}
+		margin 10rem 0
+		caption(2.875rem, 2.5rem, 600)
+		color cyan-main
+
+		span
+			display block
+			width 100%
+
+
+	&__container
+		{}
+		position relative
+		z-index 5
+
+		&--mobile
+			{}
+			display none
+
+		&--desktop
+			{}
+
+
+
+
+	&__row
+		{}
+		display flex
+		justify-content space-around
+
+
+
+	&__item
+		{}
+		// background-color rgba(222,111,0, 0.3)
+		max-width 304px
+		width 100%
+		min-height 318px
+
+	&__starz
+		{}
+		position relative
+		height 290px
+		background url('../img/bg/star-rastr.png') no-repeat
+		background-size contain
+
+
+
+	&__star-title
+		{}
+		width 100%
+		position absolute
+		top 42%
+		left 50%
+		transform translate(-50%)
+		text-align center
+		text-transform uppercase
+		color #fff
+		text-shadow 1px 1px 2px rgba(0,0,0, 1)
+
+
+
+	&__star-img
+		{}
+		position absolute
+		top 50%
+		left 50%
+		transform translate(-50%)
+
+
+	&__avatar
+		{}
+		display block
+
+	// Описание личности
+	&__title
+		margin 1.5rem auto 3rem
+		max-width 120px
+		text-align center
+		color #fff
+
+
+	&__sub-caption
+		margin-bottom 7rem
+		padding 0 20px
+		text-align center
+		font-size 1.5rem
+		line-height 2rem
+		text-transform uppercase
+		color cyan-main
+
+
+	&__logotype
+		{}
+		position absolute
+		top 50%
+		left 50%
+		max-width 1400px
+		width 100%
+		transform translate(-50%)
+
+
+	&__container-mobile
+	&__text-inner
+		{}
+		display none
+
+
+
+@media fullhd
+	.section--12
+		{}
+
+	.slider
+		{}
+
+		&__caption
+			{}
+
+
+		&__container
+			{}
+
+			&--mobile
+				{}
+
+
+		&__row
+			{}
+
+
+		&__item
+			{}
+			max-width 200px
+
+
+		&__starz
+			{}
+			height 200px
+
+
+		&__star-title
+			{}
+			font-size 0.7rem
+			line-height 0.5rem
+
+
+		&__star-img
+			{}
+			width 40px
+			height 40px
+
+
+		&__avatar
+			{}
+			width 100%
+			max-width 100%
+
+
+
+		&__title
+			{}
+
+
+
+
+
+@media desktop
+	.section--12
+		{}
+
+	.slider
+		{}
+
+		&__caption
+			{}
+			margin 1rem 0 5rem
+
+
+		&__container
+			{}
+
+
+		&__row
+			{}
+
+
+		&__item
+			{}
+			max-width 170px
+
+
+		&__starz
+			{}
+			height 170px
+
+
+		&__star-title
+			{}
+
+
+
+		&__star-img
+			{}
+
+
+
+		&__avatar
+			{}
+
+
+
+
+@media notebook
+	.section--12
+		{}
+
+	.slider
+		{}
+
+		&__caption
+			{}
+
+
+		&__container
+			{}
+
+
+		&__row
+			{}
+
+
+		&__item
+			{}
+			max-width 130px
+
+
+		&__starz
+			{}
+			height 130px
+
+
+		&__star-title
+			{}
+
+
+
+		&__star-img
+			{}
+
+
+
+		&__avatar
+			{}
+
+
+
+
+@media medium
+	.section--12
+		{}
+
+	.slider
+		{}
+
+		&__caption
+			{}
+
+
+		&__container
+			{}
+
+			&--mobile
+				{}
+
+
+		&__row
+			{}
+
+
+
+		&__item
+			{}
+			max-width 70px
+			min-height 100px
+
+
+		&__starz
+			{}
+			height 70px
+
+
+		&__star-title
+			{}
+			top 20%
+			font-size 0.6rem
+			line-height 0.6rem
+
+
+
+		&__star-img
+			{}
+			top 42%
+			width 20px
+			height 20px
+
+
+
+		&__avatar
+			{}
+
+
+
+
+
+
+@media small
+	.section--12
+		{}
+		padding 0
+
+	.slider
+		{}
+		flex-wrap wrap
+		justify-content center
+
+		&__caption
+			{}
+			margin 2rem 0 5rem
+			padding 0 20px
+
+		&__sub-caption
+			{}
+			margin-top 1rem
+			margin-bottom 4rem
+
+		&__row
+			{}
+
+
+		&__item
+			{}
+
+
+		&__star
+			{}
+			position relative
+			width 200px
+			height 200px
+			line-height 100px
+			text-align center
+			background url('../img/bg/star-rastr.png') no-repeat
+			background-size contain
+
+
+
+		&__star-title
+			{}
+			top 20%
+			font-size 1.5rem
+			line-height 1rem
+
+
+
+		&__star-img
+			{}
+			top 42%
+			width 50px
+			height 50px
+
+
+
+		&__avatar
+			{}
+
+
+
+		// MOBLIE SLIDER
+
+		&__container
+			margin-bottom 1rem
+			display flex
+			justify-content space-between
+			position relative
+			max-width 1000px
+			width 100%
+			height 210px
+			overflow hidden
+
+			&--desktop
+				{}
+				display none
+
+
+		&__container-inner
+			display flex
+			position absolute
+			align-items center
+			height 100%
+			transition transform 0.45s
+			width auto
+
+			&--current
+				transform scale(1.5)
+
+
+		&__text-inner
+			box-sizing border-box
+			padding 0 20px
+			width 100%
+			display flex
+			justify-content center
+			font-size 12px
+			text-align center
+			color black
+
+
+		&__text
+			display none
+			color #fff
+
+			&--current
+				display block
+
+			h3
+				font-size 1rem
+				line-height 1.1
+
+			p
+				font-size .9rem
+				line-height 1.1
+
+
+	.button
+		{}
+		max-width 60px
+		width 100%
+		cursor pointer
+		z-index 2
+		border none
+		padding 20px
+
+		&:focus
+			{}
+			filter invert(1)
+			outline none
+
+		&__prev
+			background transparent url('../svg/arrow-right-light.svg') no-repeat 50% 50%
+			background-size 40px
+			transform rotate(180deg)
+
+
+		&__next
+			background transparent url('../svg/arrow-right-light.svg') no-repeat 50% 50%
+			background-size 40px
+
+
+	.wrapper--15
+		background-color rgba(222,222,222, .5)
+
+	.section--15
+		{}
+		padding 0
+		height auto

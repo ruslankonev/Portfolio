@@ -1,0 +1,469 @@
+.section--1
+	{}
+
+
+.hero
+	{}
+	margin-top 10rem
+	width 100%
+	display flex
+	flex-direction column
+	align-items center
+
+
+	&__btn
+		{}
+		font-size 1rem
+		line-height 1rem
+
+
+	&__video-wr
+		{}
+		position absolute
+		top 0
+		left 0
+		right 0
+		bottom 0
+		height 300%
+		top -100%
+
+
+	&__iframe
+		{}
+		position absolute
+		top 0
+		left 0
+		width 100%
+		height 100%
+
+
+	&__footer-wr
+		margin-top 12.5rem
+		width 100%
+		display flex
+		justify-content space-around
+		align-items center
+
+
+	&__caption
+		{}
+		max-width 1064px
+		font-size 3.375rem
+		line-height 3.5rem
+		font-weight 300
+		color #fff
+		text-align center
+
+
+
+	&__expert-coin
+		{}
+		padding 20px
+		max-width 230px
+		height auto
+
+		img
+			width 100%
+
+
+
+	&__timer-wr
+		{}
+		padding 20px
+		max-width 540px
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+
+
+
+	&__timer-caption
+		{}
+		margin-top 0px
+		width 100%
+		font-size 1.5rem
+		line-height 1.5rem
+		text-align center
+		color #fff
+
+
+	&__timer-item
+		{}
+		padding-left 20px
+		width 100px
+		height 90px
+		background url('../svg/timer-star.svg') no-repeat 0 100%
+
+
+	&__timer-number
+		{}
+		display block
+		font-size 3.125rem
+		line-height 2.825rem
+		text-align right
+		color #fff
+
+
+	&__timer-units
+		{}
+		color #fff
+		display block
+		font-size .85rem
+		line-height 1rem
+		text-align right
+
+
+	&__social-box
+		{}
+		padding 20px
+		max-width 310px
+		display flex
+		flex-wrap wrap
+		justify-content center
+
+
+	&__svg
+		{}
+		width 2rem
+		height 2rem
+
+		&--tg
+			box-shadow 1px 1px 5px #27a5e7
+			border-radius 50%
+			transform scale(1.5)
+			animation starpuls 3s infinite, shadowwave 2s infinite
+
+
+	&__social-element
+		{}
+
+
+	&__talent-coin
+		{}
+		width 100%
+		max-width 166px
+
+
+
+	&__talent-img
+		{}
+		width 100%
+		height auto
+
+
+	&__social-link
+		{}
+		display block
+		padding 20px
+
+		&--tg
+			{}
+			// 50% filter invert(1)
+			// animation star 3s infinite
+
+		&--in
+			{}
+
+		&--tw
+			{}
+
+		&--fb
+			{}
+
+		&--yt
+			{}
+
+		&--bt
+			{}
+
+		&--mi
+			{}
+
+		&--rd
+			{}
+
+
+	&__img
+		{}
+		width 30px
+		height 30px
+
+
+
+
+
+@media fullhd
+	.section--1
+		{}
+
+	.hero
+		{}
+
+		&__expert-coin
+			{}
+			flex-shrink 2
+
+
+		&__timer-wr
+			{}
+			flex-shrink 0
+
+
+		&__social-box
+			{}
+			max-width 280px
+			flex-shrink 0
+
+
+		&__social-link
+			{}
+			padding 10px
+
+
+		&__talent-coin
+			{}
+			flex-shrink 3
+
+
+
+
+
+
+
+@media desktop
+	.section--1
+		{}
+
+
+	html
+		font-size 14px
+		line-height 15px
+
+	.hero
+		{}
+
+
+		&__footer-wr
+			{}
+			margin-top 15rem
+			flex-wrap wrap
+			justify-content center
+
+
+		&__social-box
+			{}
+			max-width 1000px
+			width 100%
+			justify-content space-around
+
+
+		&__social-link
+			{}
+			padding 10px
+
+
+		&__timer-caption
+			{}
+			margin-top 0px
+
+
+		&__timer-item
+			{}
+			height 86px
+
+
+		&__expert-coin
+			{}
+			max-width 170px
+			order 4
+
+
+		&__talent-coin
+			{}
+			max-width 100px
+			flex-shrink 0
+
+
+
+@media notebook
+	.section--1
+		{}
+		min-height auto
+
+	html
+		font-size 13px
+		line-height 14px
+
+	.hero
+		{}
+		margin-top 3rem
+
+
+		&__caption
+			margin-bottom 5rem
+			max-width 600px
+			font-size 2rem
+			line-height 2.2rem
+
+
+		&__footer-wr
+			{}
+			margin-top 5rem
+
+
+		&__social-box
+			{}
+
+
+		&__timer-wr
+			{}
+			flex-shrink 1
+
+		&__social-link
+			{}
+
+
+		&__timer-caption
+			{}
+
+
+		&__timer-item
+			{}
+			padding-left 30px
+			width 50px
+			background-position 0 50%
+
+
+		&__timer-number
+			{}
+			font-size 2.8rem
+			line-height 3.2rem
+
+		&__timer-units
+			{}
+			font-size 0.75rem
+			line-height 0.8rem
+
+		&__expert-coin
+			{}
+
+
+
+
+@media medium
+	.section--1
+		{}
+
+	html
+		{}
+
+	.hero
+		{}
+
+
+		&__caption
+			{}
+
+
+		&__footer-wr
+			{}
+
+
+		&__social-box
+			{}
+			padding 10px 0px
+
+
+		&__social-link
+			{}
+			padding 10px 5px
+
+
+		&__timer-caption
+			{}
+
+
+		&__timer-item
+			{}
+			width 40px
+
+
+		&__timer-number
+			{}
+			font-size 2.5rem
+
+
+		&__timer-units
+			{}
+
+
+		&__expert-coin
+			{}
+
+
+
+
+@media small
+	.section--1
+		{}
+
+	html
+		{}
+		font-size 10px
+		line-height 11px
+
+	.hero
+		{}
+
+
+		&__caption
+			{}
+
+
+		&__footer-wr
+			{}
+
+
+		&__social-box
+			{}
+			padding 20px 8px 20px 0px
+			max-width 180px
+			justify-content center
+
+
+		&__social-link
+			{}
+			padding 7px
+
+
+		&__timer-wr
+			{}
+			padding 10px 0px
+
+
+		&__timer-caption
+			{}
+
+
+		&__timer-item
+			{}
+			padding-left 20px
+			height 64px
+
+
+		&__timer-number
+			{}
+
+
+		&__timer-units
+			{}
+
+
+		&__expert-coin
+			{}
+
+
+		&__talent-coin
+			{}
+			max-width 70px
+

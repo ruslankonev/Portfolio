@@ -1,0 +1,375 @@
+.header
+	{}
+	width 100%
+
+
+	&__nav
+		{}
+		display flex
+
+
+	&__wrapper-menu
+		padding 0px 20px
+		display flex
+		align-items center
+
+
+	&__object
+		width 140px
+		height 70px
+
+
+	&__list
+		margin 0px 0px 0px 300px
+		padding 0px
+		max-width 700px
+		width 100%
+		list-style none
+		display flex
+		justify-content space-around
+		align-items center
+
+
+	&__item
+		{}
+		padding-right 20px
+		text-transform uppercase
+		background url('../img/separate.png') no-repeat 100% 50%
+
+		&:last-of-type
+			background-image none
+
+	&__link
+		display block
+		padding 20px
+
+
+	// humburger
+	&__input-menu
+	&__label-menu
+		display none
+
+
+	// wrapper языков
+	&__wrapper-langs
+		{}
+		margin-left 150px
+		max-width 330px
+		width 100%
+		display inline-flex
+
+
+	&__list-langs
+		{}
+		margin 0
+		padding 0
+		list-style none
+		width 100%
+		display flex
+		justify-content space-around
+		align-items center
+
+
+	&__lang-item
+		{}
+		width 36px
+		height 36px
+		background-color transparent
+		background-repeat no-repeat
+
+		&--en
+			{}
+			background-image url('../svg-icons/svg-flag_en.svg')
+
+
+		&--ja
+			{}
+			background-image url('../svg-icons/svg-flag_ja.svg')
+
+
+
+		&--ko
+			{}
+			background-image url('../svg-icons/svg-flag_ko.svg')
+
+
+
+		&--zh
+			{}
+			background-image url('../svg-icons/svg-flag_zh.svg')
+
+
+
+		&--es
+			{}
+			background-image url('../svg-icons/svg-flag_es.svg')
+
+
+
+		&--ru
+			{}
+			background-image url('../svg-icons/svg-flag_ru.svg')
+
+
+	&__lang-link
+		{}
+		display block
+		width 100%
+		height 100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media fullhd
+	.section--0
+		{}
+
+	.header
+		{}
+
+		&__list
+			{}
+			margin-left 110px
+
+		&__wrapper-langs
+			{}
+			margin-left 0
+
+
+
+
+@media desktop
+	.section--0
+		{}
+
+	.header
+		{}
+
+		&__link
+			{}
+			padding 10px
+
+		&__list
+			margin-left 0px
+
+		&__wrapper-langs
+			{}
+			margin-left 0
+
+
+
+@media notebook
+	.section--0
+		{}
+
+	.header
+		{}
+
+		&__object
+			{}
+			width 90px
+			padding-right 10px
+
+		&__list
+			{}
+
+		&__wrapper-langs
+			{}
+
+
+		&__lang-item
+			{}
+			width 20px
+			height 20px
+
+
+		&__link
+			{}
+
+
+		&__item
+			{}
+			padding-right 0
+			background none
+
+
+
+@media medium
+	.section--0
+		{}
+
+	body
+		font-size 0.65rem
+		line-height 0.65rem
+
+	.header
+		{}
+
+
+		&__nav
+			{}
+			height 70px
+
+		&__object
+			{}
+			display none
+
+
+		&__list
+			{}
+
+
+		&__wrapper-langs
+			{}
+
+
+		&__lang-item
+			{}
+			width 15px
+			height 15px
+
+
+		&__link
+			{}
+			padding 5px
+
+
+		&__item
+			{}
+
+
+
+
+
+@media small
+	.section--0
+		{}
+
+	.header
+		{}
+
+
+		&__wrapper-menu
+			{}
+
+
+		&__link
+			{}
+			font-size 1rem
+
+
+		&__label-menu
+			position relative
+			display block
+			width 40px
+			height 100%
+			cursor pointer
+
+
+		&__humburger-span
+			{}
+			display block
+			width 100%
+			height 2px
+			background-color #1dcad3
+
+			&--1
+				{}
+				position absolute
+				top 20%
+
+
+			&--2
+				{}
+				position absolute
+				top 40%
+
+
+			&--3
+				{}
+				position absolute
+				top 60%
+
+
+			&--4
+				{}
+				position absolute
+				top 80%
+
+
+		&__list
+			{}
+			display none
+
+
+		&__input-menu:checked ~ .header__list
+			{}
+			display block
+
+
+		&__input-menu:checked ~ .header__label-menu > .header__humburger-span
+			{}
+			transition transform .325s, top .325s
+
+
+		&__input-menu:checked ~ .header__label-menu > .header__humburger-span--1
+			{}
+			transform scale(0)
+
+
+		&__input-menu:checked ~ .header__label-menu > .header__humburger-span--2
+			{}
+			transform rotate(45deg)
+			top 50%
+
+
+		&__input-menu:checked ~ .header__label-menu > .header__humburger-span--3
+			{}
+			transform rotate(-45deg)
+			top 50%
+
+
+		&__input-menu:checked ~ .header__label-menu > .header__humburger-span--4
+			{}
+			transform scale(0)
+
+
+
+
+		&__list
+			{}
+			position absolute
+			background-color black
+			left 0
+			top 70px
+			width 100%
+			z-index 5
+
+		&__item
+			{}
+			text-align center
+			padding 15px 20px
+
+
+
+
+
+
+// small = "(min-width: 414px)"
+// medium = "(min-width: 768px)"
+// notebook = "(min-width: 992px)"
+// desktop = "(min-width: 1200px)"
+// fullhd = "(min-width: 1600px)"
