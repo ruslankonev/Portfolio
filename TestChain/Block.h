@@ -29,4 +29,3 @@ private:
 #endif //TESTCHAIN_BLOCK_H
 
 
-
