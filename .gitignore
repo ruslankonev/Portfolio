@@ -12,3 +12,5 @@
 /TalentCoin/site/
 /YODSE Marketplace/site/
 *.zip
+/TestChain/.idea
+/TestChain/cmake-build-debug
