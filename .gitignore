@@ -14,3 +14,7 @@
 *.zip
 /TestChain/.idea
 /TestChain/cmake-build-debug
+*.txt
+*.yml
+*.php
+*.html
